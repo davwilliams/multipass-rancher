@@ -36,6 +36,7 @@ Usage:
 `./multipass-rancher-install.sh -w <num_agents> -c <num_cpus> -m <mem_size> -d <disk_size`
 
 Example:
+
 `./multipass-rancher-install.sh -w 3 -c 2 -m 4096 -d 20`
 
 The example above will create the following:
