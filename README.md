@@ -2,7 +2,7 @@
 
 ## What is Multipass Rancher?
 
-Multipass Rancher is a quick set up script that can be used to create a functional Rancher lab for Linux or macOS environments via Ubuntu Multipass
+Multipass Rancher is a quick set up script that can be used to create a functional Rancher lab for Linux or macOS environments via Ubuntu Multipass.
 
 ## Prerequisites
 

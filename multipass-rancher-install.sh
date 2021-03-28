@@ -102,7 +102,7 @@ multipass exec k3s-rancher -- /bin/bash -c "helm install cert-manager jetstack/c
   --namespace cert-manager \
   --version v1.2.0"
 echo && echo "Verifying Cert-Manager installation"
-multipass exec k3s-rancher -- /bin/bash -c "sleep 10 && kubectl get pods --namespace cert-manager"
+multipass exec k3s-rancher -- /bin/bash -c "sleep 20 && kubectl get pods --namespace cert-manager"
 
 # Install Rancher
 multipass exec k3s-rancher -- /bin/bash -c "kubectl create namespace cattle-system"
